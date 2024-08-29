@@ -24,11 +24,13 @@ h3 {
 
     transition-duration: 1000ms;
 
+    cursor: pointer;
+
     display: flex;
     justify-content: center;
     align-items: center;
 
     background-color: #B2C9AB;
-    border-radius: 20px;
+    border-radius: 15px;
     margin-bottom: 5px;
 }
