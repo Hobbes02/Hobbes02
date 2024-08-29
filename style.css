@@ -8,5 +8,27 @@ h1 {
     font-optical-sizing: auto;
     font-weight: 700;
     font-size: 500%;
-    align-self: center;
+}
+
+
+h3 {
+    font-family: "Roboto Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: 400;
+}
+
+
+.section {
+    height: 40px;
+    width: 100%;
+
+    transition-duration: 1000ms;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #B2C9AB;
+    border-radius: 20px;
+    margin-bottom: 5px;
 }
