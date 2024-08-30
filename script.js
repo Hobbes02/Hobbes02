@@ -4,7 +4,11 @@ var viewHeight = (window.innerHeight - ((pages.length - 1) * 50)).toString();
 
 onresize = function() {
     viewHeight = (window.innerHeight - ((pages.length - 1) * 50)).toString();
-    
+    var elem = this.document.getElementById(currentSection);
+    elem.style.transitionDuration = "0ms";
+    elem.style.height = viewHeight + "px";
+    elem.style.transitionDuration = "500ms";
+
 }
 
 var canChangeSections = true;
