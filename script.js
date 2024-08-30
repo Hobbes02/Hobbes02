@@ -1,7 +1,15 @@
 var pages = ["home", "games", "tools", "design", "contact"];
 
+var viewHeight = (window.innerHeight - ((pages.length - 1) * 50)).toString();
+
 function openPage(pageName) {
-    document.getElementById(pageName).style.height = window.innerHeight - (45 * (pages.length - 1));
+    for(var p of pages) {
+        if(p === pageName) {
+            document.getElementById(p).style.height = viewHeight + "px";
+        } else {
+            document.getElementById(p).style.height = "40px";
+        }
+    }
 }
 
 
@@ -16,6 +24,5 @@ var currentPage = "home";
 
 
 function onClick(pageName) {
-    console.log(pageName);
     openPage(pageName);
 }
