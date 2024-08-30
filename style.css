@@ -22,15 +22,20 @@ h3 {
     height: 40px;
     width: 100%;
 
-    transition-duration: 1000ms;
+    transition-duration: 500ms;
 
     cursor: pointer;
 
     display: flex;
     justify-content: center;
-    align-items: center;
 
     background-color: #B2C9AB;
     border-radius: 15px;
     margin-bottom: 5px;
+}
+
+
+.section-title {
+    position: relative;
+    margin-top: 6px;
 }
