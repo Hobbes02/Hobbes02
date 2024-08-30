@@ -1,5 +1,12 @@
 body {
     background-color: #666A86;
+    font-family: "Roboto Mono", monospace;
+}
+
+
+p {
+    font-size: 90%;
+    font-weight: 400;
 }
 
 
@@ -14,7 +21,7 @@ h1 {
 h3 {
     font-family: "Roboto Mono", monospace;
     font-optical-sizing: auto;
-    font-weight: 400;
+    font-weight: 900;
 }
 
 
@@ -26,8 +33,8 @@ h3 {
 
     cursor: pointer;
 
-    display: flex;
-    justify-content: center;
+    text-align: center;
+    overflow: hidden;
 
     background-color: #B2C9AB;
     border-radius: 15px;
