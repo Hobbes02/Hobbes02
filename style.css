@@ -1,5 +1,5 @@
 body {
-    background-color: #666A86;
+    background-color: #0d3b66;
     font-family: "Roboto Mono", monospace;
 }
 
@@ -45,4 +45,25 @@ h3 {
 .section-title {
     position: relative;
     margin-top: 6px;
+}
+
+
+#home {
+    background-color: #FAF0CA;
+}
+
+#games {
+    background-color: #F4D35E;
+}
+
+#tools {
+    background-color: #F4A5AE;
+}
+
+#design {
+    background-color: #56CBF9;
+}
+
+#contact {
+    background-color: #78DC84;
 }
